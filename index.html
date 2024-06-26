@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>주요 경력 소개</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./graph.css" />
+</head>
+
+<body>
+    <div class="hidden-command">
+        <p class="management-mode">관리모드</p>
+    </div>
+    <div class="page-wrap">
+        <div class="page" id="ms-exp">
+            <p class="title">개발 경험 소개</p>
+        </div>
+
+        <div class="page" id="ms-career">
+            <div class="x-button parent-x-button">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+            </div>
+            <div class="section-career">
+                <p class="title">경력 사항</p>
+            </div>
+            <div>
+                <div class="x-button parent-x-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18" />
+                        <line x1="6" y1="6" x2="18" y2="18" />
+                    </svg>
+                </div>
+                <div class="graph" id="graph"></div>
+            </div>
+        </div>
+
+        <div class="page" id="ms-portpolio">
+            <div class="x-button parent-x-button">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+            </div>
+            <p class="title">주요 수행 프로젝트</p>
+            <div class="portpolio-top-wrap"></div>
+        </div>
+
+
+        <div class="page" id="ms-career-text">
+            <div class="x-button parent-x-button">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+            </div>
+            <p class="title">기간 별 상세 경력사항</p>
+            <div class="career-periods"></div>
+        </div>
+
+    </div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
