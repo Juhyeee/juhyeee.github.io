@@ -31,7 +31,7 @@ var careerData = [
         start: "2021-11-08",
         end: "2024-02-14",
         work: "게임 운영툴, BI 시각화 도구, 기획데이터 DB화 툴 개발. 게임 서버 개발 지원",
-        tags: ["java", "spring", "web", "vuejs", "mysql", "jenkins", ".Net-Core", "elasticsearch", "RESTful API"],
+        tags: ["java", "c#", "spring",".Net-Core", "jpa", "mysql", "mssql", "vue.js", "redis", "jenkins", "gitlab", "svn", "elasticsearch"],
     },
     {
         src: "img/covision.png",
@@ -40,7 +40,7 @@ var careerData = [
         start: "2016-07-27",
         end: "2021-04-10",
         work: "그룹웨어 데이터 배치 시스템 개발, 협업 시스템 개발, 모바일 그룹웨어 개발",
-        tags: ["java", "spring", "jsp", "mariadb", "mysql", "mssql", "Mybatis", "jenkins", "RESTful API", ".Net-Core", "Redis"],
+        tags: ["java", "c#", "spring", ".net", "mariadb", "mysql", "mssql", "Mybatis", "jsp", "redis", "jenkins", "svn"],
     }
 ];
 
@@ -81,8 +81,8 @@ var portpolioData = [
         end: "2024-02",
         company: "넷마블네오",
         desc: "<b>나혼자레벨업</b> 게임 내에서 사용되는 번역 메세지에 대한 데이터 관리 시스템 백엔드 및 프론트엔드 개발을 담당함.",
-        work: ["백엔드 API 및 프론트엔드", "데이터 관리 프로세스 설계 및 기본 기능 구현", "CI/CD", "elasticsearch 적용"],
-        tag: ["Java", "Spring", "JPA", "Vue.js", "Mysql", "Jenkins", "GitLab", "ElasticSearch", "RESTful API"],
+        work: ["사용자 관리 기능 구현(Okta SSO 활용)", "ORM 도입 및 ERD & DB Table 설계", "BE API 및 FE 구현", "기본 기능 구현(캐싱, 트랜잭션, 예외 처리 등)", "CI/CD 프로세스 설계 및 구축", "Elasticsearch 적용"],
+        tag: ["Java", "Spring", "JPA", "Mysql", "Vue.js", "Jenkins", "GitLab", "ElasticSearch"],
     },
     {
         src: ["img/noimage.jpg"],
@@ -90,9 +90,9 @@ var portpolioData = [
         start: "2023-08",
         end: "2023-12",
         company: "넷마블네오",
-        desc: "게임 BI 지표들을 차트로 시각화하고 대시보드를 구성하는 툴로, <b>Tableau나, Kibana, Garapana</b>가 참조되었고 <b>Apexchart</b>를 사용하여 다양한 차트를 구현하고, 개인화된 대시보드 및 여러 데이터를 연동할 수 있도록 개발됨.",
-        work: ["백엔드 API 및 프론트엔드", "대시보드 컨텐츠 관련 서비스 DB 설계", "지표 데이터 백엔드 연동 BFF API 구현"],
-        tag: ["Vuejs", "Java", "ApexChart", "Mysql"],
+        desc: "게임 BI 지표들을 차트로 시각화하고 대시보드를 구성하는 툴로, <b>Tableau나, Kibana, Garafana</b>가 참조되었고 <b>Apexchart</b>를 사용하여 다양한 차트를 구현하고, 개인화된 대시보드 및 여러 데이터를 연동할 수 있도록 개발됨.",
+        work: ["BE API 및 FE 구현", "ERD & DB Table 설계", "권한 프로세스 설계 및 구현"],
+        tag: ["Java", "Spring", "JPA", "Mysql", "Vue.js","ApexChart"],
     },
     {
         src: ["img/games/kf.jpg"],
@@ -101,8 +101,8 @@ var portpolioData = [
         end: "2024-02",
         company: "넷마블네오",
         desc: "<b>킹오브파이터 아레나</b> 운영툴의 코어 설계 및 개발부터 런칭까지의 컨텐츠 개발을 담당함.",
-        work: ["백엔드 API 및 프론트엔드", "구조 설계 및 기본 기능 구현", "비즈니스 로직 구현", "CI/CD"],
-        tag: ["Java", "Spring", "JPA", "Vue.js", "Mssql", "Redis", "Jenkins", "GitLab", "RESTful API"],
+        work: ["BE API 및 FE 구현", "코어 기능 설계 및 구현", "비즈니스 로직 구현", "CI/CD 프로세스 설계 및 구축", "컨벤션 작성을 통한 스타일 통합"],
+        tag: ["Java", "Spring", "JPA","Mssql", "Vue.js", "Redis", "Jenkins", "GitLab"],
     },
     {
         src: ["img/games/j.jpg"],
@@ -111,8 +111,8 @@ var portpolioData = [
         end: "2024-02",
         company: "넷마블네오",
         desc: "<b>제2의 나라</b> 운영툴의 국내 및 글로벌 환경의 백엔드 및 프론트엔드 개발을 담당함.",
-        work: ["백엔드 API 및 프론트엔드", "DB 설계", "게임 서버 API 연동", "CI/CD"],
-        tag: ["Java", "Spring", "Vuejs", "Mysql", "Jenkins", "Mybatis", "Redis"],
+        work: ["BE API 및 FE 구현", "DB 설계", "게임 서버 API 연동", "CI/CD"],
+        tag: ["Java", "Spring",  "Mybatis", "Mysql", "Vue.js", "Redis", "Jenkins"],
     },
     {
         src: ["img/games/k.jpg"],
@@ -121,8 +121,8 @@ var portpolioData = [
         end: "2024-02",
         company: "넷마블네오",
         desc: "<b>킹오브파이터</b> 운영툴의 국내 및 글로벌 환경의 백엔드 및 프론트엔드 개발을 담당함.",
-        work: ["백엔드 API 및 프론트엔드", "DB 스키마 및 구조 설계", "게임 서버 API 연동"],
-        tag: ["Java", "Spring", "Mybatis", "JSP", "Mssql", "Redis", "Jenkins", "TortoiseSVN"],
+        work: ["BE API 및 FE 구현", "DB 스키마 및 구조 설계", "게임 서버 API 연동"],
+        tag: ["Java", "Spring", "Mybatis", "Mssql", "JSP", "Redis", "Jenkins", "SVN"],
     },
 
     // 코비젼
@@ -133,8 +133,8 @@ var portpolioData = [
         end: "2021-04",
         company: "코비젼",
         desc: "제품팀에 소속되어 그룹웨어 제품의 백엔드 개발 및 기능 개선 안정화를 진행함.",
-        work: ["제품 안정화 참여", "그룹웨어 솔루션 버전 업그레이드 프로젝트 참여", "dll 웹서비스화 및 Java 전환 작업 참여"],
-        tag: [".NET-Core", "Java", "Spring", "RESTful API", "Mysql", "Mssql", "Jenkins", "Redis"],
+        work: ["비즈니스 로직 개선 및 안정화", "솔루션 버전 업그레이드 프로젝트 참여", "dll 웹서비스화 및 Java 전환 작업 참여"],
+        tag: ["C#", "Java", "Spring", "Mysql", "Mssql", "Redis","Jenkins", "SVN"],
     },
     {
         src: ["img/covision/mobile.png"],
@@ -143,8 +143,8 @@ var portpolioData = [
         end: "2020-03",
         company: "코비젼",
         desc: "모바일 버전의 그룹웨어 솔루션 신규 프로젝트에 참여함.",
-        work: ["공통 기능 설계 및 구현", "모바일 화면 설계 및 콘텐츠 개발 참여", "반응형 웹페이지 구현"],
-        tag: ["Java", "Spring", "Redis", "JSP", "RESTful API", "Redis", "Mssql", "TortoiseSVN"],
+        work: ["공통 기능 설계 및 구현", "모바일 화면 설계 및 콘텐츠 개발 참여", "DB 스키마 정의 및 프로시저 구현", "반응형 웹페이지 구현"],
+        tag: ["Java", "Spring", "JSP", "Mssql", "Redis", "SVN"],
     },
     {
         src: ["img/noimage.jpg"],
@@ -153,8 +153,8 @@ var portpolioData = [
         end: "2018-08",
         company: "코비젼",
         desc: "그룹웨어의 데이터 연동 배치 시스템을 개발하고 고도화함.",
-        work: ["배치 시스템 개발", "로그 관리 및 모니터링 페이지 개발", "dll 웹서비스화", "DB 인덱스 및 쿼리 최적화"],
-        tag: [".Net-Core", "Mssql", "Mysql", "Active Directory", "Office 365", "TortoiseSVN"],
+        work: ["배치 시스템 개발", "로그 관리 및 모니터링 페이지 개발", "dll 웹서비스화"],
+        tag: ["C#", ".Net", "Mssql", "Mysql", "Active Directory", "Office 365", "SVN"],
     },
     {
         src: ["img/noimage.jpg"],
@@ -164,13 +164,13 @@ var portpolioData = [
         company: "코비젼",
         desc: "그룹웨어 구축 프로젝트 초기 협의 ~ 오픈 및 안정화 프로세스까지 메인으로 참여하며 협업 경험을 쌓았음.",
         work: [
-            "K* 그룹 통합 그룹웨어 시스템 구축 프로젝트(2020~2021) 참여",
-            "K**G 그룹 전자결재 시스템 구축 프로젝트(2020) 참여",
-            "대* 그룹웨어 시스템 구축 프로젝트 참여(2019)",
-            "D*그룹 통합 그룹웨어 구축 프로젝트(2018 ~ 2019) 참여",
-            "태*그룹 통합 그룹웨어 구축 프로젝트(2017 ~ 2018) 참여 등"
+            "KG 그룹 통합 그룹웨어 시스템 구축 프로젝트(2020~2021) 참여",
+            "KT&G 그룹 전자결재 시스템 구축 프로젝트(2020) 참여",
+            "대성 그룹웨어 시스템 구축 프로젝트 참여(2019)",
+            "대림그룹 통합 그룹웨어 구축 프로젝트(2018 ~ 2019) 참여",
+            "태광그룹 통합 그룹웨어 구축 프로젝트(2017 ~ 2018) 참여 등"
         ],
-        tag: [".Net-Core", "Java", "Spring"],
+        tag: ["C#", "Java", "Spring", ".Net"],
     },
 ];
 
